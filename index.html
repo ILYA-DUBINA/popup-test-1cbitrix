@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>React App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">      
+      <div class="popup">
+        <div class="popup__header">          
+          <h2 class="popup__title">Заполните заявку на консультацию</h2>
+          <div class="container__cross"></div>
+        </div>        
+        <h5 class="popup__text">Наш специалист свяжется с Вами и ответит на любые вопросы</h5>
+        <form class="popup__form" action="/" method="post">
+          <input class="popup__form_name" type="text" placeholder="Имя">
+          <input class="popup__form_phone" type="text" placeholder="Телефон">
+          <textarea class="popup__form_text" placeholder="Напишите, какой у Вас вопрос? "></textarea>
+          <div class="popup__form_button">
+            <button class="button__main" type="button">Получить консультацию</button>
+            <span class="button__text">Я соглашаюсь на 
+              <a class="button__text_inside" href="/">обработку персональных данных</a>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
